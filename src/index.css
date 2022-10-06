@@ -7,6 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -17,5 +18,22 @@ code {
   color: white;
   border-radius: 15px;
   padding: 1rem;
+  margin: 1rem;
+}
+
+.carousel{
+  background-color: black;
+}
+
+.carousel img{
+  height: 92vh;
+}
+
+.product{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
   margin: 1rem;
 }
