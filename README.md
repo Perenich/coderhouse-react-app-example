@@ -1,3 +1,29 @@
+# Hola Félix Blanco!
+
+Soy Bruno Perenich y a continuación le voy a dar una breve descripción del proyecto que realice en **REACT.JS**.
+
+##Introducción!
+
+## BGP AUTOMOTORES
+
+Es una e-ccomerce de autos nuevos, usado y de alta gama.
+A conticuación voy a expricar la navegabilidad del proyecto.
+
+- Tiene su **Home** personalisada.
+
+- El area de **Autos** donde se encuentran todos los productos disponibles.
+
+- **Categoria** que cuenta con las tres distintas categorias de autos.
+
+- **Un carrito** Donde el carrito cuando este vacio no va a mostrar nada pero cuando contenga algo va a mostrar al lado la cantidad de productos que contiene y para ver el detalle solo tiene que ingresar al carrito.
+
+### Funcionamiento del sitio
+
+El sitio inicia en su Home donde va a visualizar un carrousel. En el NavBar va a tener las opciones de navegabilidad que ya anteriormente se las comente, cuando ingresa a **Autos** o a alguna **Categoría** puede visualizar los productos disponibles y un botón de detalle el que lo llevara a ver el producto completo con todos sus detalles y REF de producto. En esa misma ventana va a poder seleccionar cuantos productos quiere que todo tienen un stock de 10 unidades y puede elegir **Terminar compra** o **Seguir comprando**. Al precionar **Terminar compra** Lo va a llevar a la **Cart** donde va a ver todos los productos que selecciono con su total correspondiente y un boton de **Check Out** que lo llevara a completar un formulario. En tal formulario va a tener que completar unos datos donde le va a pedir dos veces el email por temas de seguridad.
+
+Es un proyecto que está conectado a Firebase donde los datos del formulario que el usuario carga se van a ir cargando en las **Orders** con un ID que va a pasar con detalle sus datos, fecha, hora y detalle de o de los productos que allá comprado el usuario.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

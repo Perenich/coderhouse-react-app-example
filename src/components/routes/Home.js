@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 
-function Home() {
+const Home = () => {
   return (
     <div className='carousel'>
     <Carousel>

@@ -34,6 +34,19 @@ code {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 2rem;
-  margin: 1rem;
+  align-items: center;
+  border: 1px solid  rgba(136, 136, 136, 0.4);
+  box-shadow: 3px 5px rgb(136, 136, 136, 0.3);
+  border-radius: 30px 5px 30px 5px;
+  background-color: rgba(251, 2, 2, 0.8);
+  padding: 10px;
+}
+.product:hover {
+  box-shadow: 0 8px 16px 0 rgb(20, 3, 255);
+}
+
+.load{
+  height: 100vh;
+  width: 100%;
+  font-size: 100px;
 }

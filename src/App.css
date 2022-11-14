@@ -37,3 +37,11 @@
   }
 }
 
+.main{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1em;
+  row-gap: 1em;
+  width: 98%;
+  margin: 0px auto 20px;
+}
